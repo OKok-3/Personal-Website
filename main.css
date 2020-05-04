@@ -147,12 +147,17 @@ a {
     height: 500px;
     margin: 40px;
 }
-.desc_text {
+.desc_title {
     font-family: "Playfair Display", serif;
     font-size: 50px;
     left: 0px;
     margin: 0px;
 }
+.desc_text {
+    padding-top: 30px;
+}
+
+
 
 
 
@@ -175,11 +180,39 @@ a {
 }
 .card-image {
     grid-area: image;
-    background: url("Resources/finance_parser.jpg");
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+/* Different Images for Different Cards */
+/* Personal Projects Cards */
+.finance_parser_card {
+    background: url("Resources/finance_parser.jpg");
     background-size: cover;
 }
+.personal_website_card {
+    background: url("Resources/website_card_background.jpg");
+    background-size: cover;
+}
+
+/* Experiences Cards */
+.ceb_card {
+    background: url("Resources/ceb_logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.fineway_card {
+    background: url("Resources/fineway_logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.byc_card {
+    background: url("Resources/byc_logo.jpeg");
+    background-size: contain;
+    background-position: center;
+}
+
+
 .card-text {
     grid-area: text;
     margin: 25px;

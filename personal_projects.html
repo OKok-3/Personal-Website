@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="functions.js"></script>
     <title>Tong Guan</title>
     <!-- Menu Bar -->
     <nav>
@@ -23,15 +24,15 @@
     <div class="container">
         <div class="cards_container">
             <div class="desc">
-                <p class="desc_text">Personal</p>
-                <p class="desc_text" style="text-indent: 30%;">Projects</p>
-                <p>These are a few projects that I took on over the years. My goal is always trying to combine computer science with economics, in a way that ’s either interesting, meaningful, or simply provides a different perspective on things.</p> 
+                <p class="desc_title">Personal</p>
+                <p class="desc_title" style="text-indent: 30%;">Projects</p>
+                <p class="desc_text">These are a few projects that I took on over the years. My goal is always trying to combine computer science with economics, in a way that ’s either interesting, meaningful, or simply provides a different perspective on things.</p> 
                 <p>There are also projects that I am currently working on, indicated by their status description at the middle portion of the card.</p>
                 <p>If you'd like to know more about a certain project, click on the card to read more (currently not available). You can also click on "Live" to go to the github page of that project when available.</p>
             </div>
-            <div class="card_container">
+            <div class="card_container" onclick="location.href='Projects/personal website project.html'">
                 <div class="card">
-                    <div class="card-image"></div>
+                    <div class="card-image personal_website_card"></div>
                     <div class="card-text">
                             <span class="card-date">Stage 1 Complete</span>
                             <h2>Personal Website</h2>
@@ -52,10 +53,11 @@
                         </div>
                     </div>
                 </div>
+                <a href="index.html"></a>
             </div>
-            <div class="card_container">
+            <div class="card_container" onclick="location.href='Projects/stocks helper project.html'">
                 <div class="card">
-                    <div class="card-image"></div>
+                    <div class="card-image finance_parser_card"></div>
                     <div class="card-text">
                             <span class="card-date">In Progress</span>
                             <h2>Stocks Helper</h2>
