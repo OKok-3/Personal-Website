@@ -6,78 +6,79 @@
     <link rel="stylesheet" href="styles.css">
     <title>Tong Guan</title>
     <!-- Menu Bar -->
-    <div class="container">
-        <nav class="navbar">
-            <a class="back_btn" href="index.html"><img src="Resources/back_btn.png" alt="linkedin_logo"></a>
+    <nav>
+        <a class="linkedin" href="https://www.linkedin.com/in/tong-g-57a725137/" rel="noopener noreferrer" target="_blank"><img src="Resources/linkedin_logo.png" alt="linkedin_logo"></a>
+        <div  class="navbar">
             <ul class="navbar_texts">
-                <li><a class="navbar_text" href="index.html">Home</a></li>
-                <li><a class="navbar_text active" href="personal_projects.html">Personal Projects</a></li>
-                <li><a class="navbar_text" href="experiences.html">Exepriences</a></li>
                 <li><a class="navbar_text" href="about_me.html">About Me</a></li>
+                <li><a class="navbar_text" href="experiences.html">Exepriences</a></li>
+                <li><a class="navbar_text active" href="personal_projects.html">Personal Projects</a></li>
+                <li><a class="navbar_text" href="index.html">Home</a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
 </head>
 <body>
     <div class="container">
-        <ul class="card_container">
-            <li class="desc">
-                <div>
-                    <p class="desc_text"><b>Personal</b></p>
-                    <p class="desc_text" style="text-indent: 25%;"><b>Projects</b></p>
-                    <p style="font-family: 'Playfair Display', serif; text-align: justify;">These are a few projects that I took on over the years. My goal is always trying to combine computer science with economics, in a way that ’s either interesting, meaningful, or simply provides a different perspective on things.</p>
+        <div class="cards_container">
+            <div class="card_container desc">
+                <p class="desc_text">Personal</p>
+                <p class="desc_text" style="text-indent: 20%;">Projects</p>
+                <p>These are a few projects that I took on over the years. My goal is always trying to combine computer science with economics, in a way that ’s either interesting, meaningful, or simply provides a different perspective on things.</p> 
+                <p>There are also projects that I am currently working on, indicated by their status symbol.</p>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                            <span class="card-date">In Progress</span>
+                            <h2>Stocks Helper</h2>
+                            <p>A python algorithm that determines whether a stock is a good investment based on certain parameter values of the stock.</p>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <div class="value">10/10</div>
+                            <div class="type">difficulty</div>
+                        </div>
+                        <div class="stat border">
+                            <div class="value">Python</div>
+                            <div class="type">Flask</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value">N/A</div>
+                            <div class="type">Github</div>
+                        </div>
+                    </div>
                 </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
+            </div>
+            <div class="card_container">
+                <a class="card_clickable" href="index.html"></a>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                            <span class="card-date">Stage 1 Complete</span>
+                            <h2>Personal Website</h2>
+                            <p>Basically what you are seeing right now. This is only the front-end. Later stages are being planned.</p>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <div class="value">3/10</div>
+                            <div class="type">difficulty</div>
+                        </div>
+                        <div class="stat border">
+                            <div class="value">HTML</div>
+                            <div class="type">CSS</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value"><a href="">Live</a></div>
+                            <div class="type">Github</div>
+                        </div>
+                    </div>
                 </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card_img" src="Resources/finance_parser.jpg" alt="project_image" style="width: 100%">
-                <div class="card_texts">
-                    <h4><b>Finance Parser</b></h4>
-                    <p>Python + MySQL + HTML + CSS + Flask</p>
-                    <p><button>DETAILS</button></p>
-                </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
