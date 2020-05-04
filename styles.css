@@ -114,6 +114,8 @@ a {
 .cards_container {
     position: relative;
     display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
     justify-content: space-between;
     width: 100%;
     max-width: 1700px;
@@ -228,8 +230,8 @@ a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)
 }
 
-@media only screen and (min-width: 3440px) {
+@media only screen and (min-width: 2000px) {
     * {
-        zoom: 107%;
+        zoom: 102%;
     }
   }
