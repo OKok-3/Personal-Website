@@ -1,0 +1,30 @@
+/* === Imports Fonts === */
+/* Playfair */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* Inide Flower */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* Abel */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.container {
+    position: absolute;
+    display: inline-block;
+    align-content: center;
+}
+
+.projects_desc_text_container {
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+
+.projects_desc_title {
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    text-align: center;
+}
+.projects_desc_text {
+    font-family: 'Abel', serif;
+    font-size: 30px;
+    text-align: auto;
+}
