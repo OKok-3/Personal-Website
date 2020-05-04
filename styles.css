@@ -11,7 +11,7 @@ body {
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 100%;
+    height: auto;
     align-content: center;
 }
 
@@ -70,7 +70,7 @@ nav {
 .container {
     position: absolute;
     width: 90%;
-    height: 100vh;
+    height: 100%;
     padding-top: 40px;
     left: 5%;
     margin-bottom: 10px;
@@ -230,8 +230,10 @@ a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)
 }
 
+
 @media only screen and (min-width: 2000px) {
     * {
         zoom: 102%;
     }
   }
+
