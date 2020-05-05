@@ -1,0 +1,1 @@
+gsap.from("*", {delay: 1, duration: 3, opacity: 0, ease: "back"});
