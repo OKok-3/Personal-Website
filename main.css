@@ -278,6 +278,12 @@ a {
 
 @media only screen and (max-width: 420px) {
     .navbar {
-        zoom: 67%;
+        zoom: 65%;
+    }
+    .name {
+        zoom: 50%;
+    }
+    .description {
+        zoom: 50%;
     }
 }
